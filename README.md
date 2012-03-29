@@ -1,7 +1,5 @@
 
 
-# Go to the Issue Tracker
-
-# [the issue tracker is here ](http://github.com/paulirish/lazyweb-requests/issues)
+# [Go to the Issue Tracker &rarr; github.com/desandro/lazyweb-requests/issues](http://github.com/desandro/lazyweb-requests/issues)
 
 
