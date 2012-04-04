@@ -2,7 +2,7 @@
 
 A single-serving site that developers can point to when dealing with new users submitting issues to GitHub. Basically serving the same function as "STICKY: Please read forum rules" posts you'd see on forums.
 
-[View discussion on #1](https://github.com/desandro/lazyweb-request/issues/1)
+[View discussion on #1](https://github.com/desandro/lazyweb-requests/issues/1)
 
 ## Key values
 
