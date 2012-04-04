@@ -1,0 +1,36 @@
+# GitHub issue submission guidelines
+
+A single-serving site that developers can point to when dealing with new users submitting issues to GitHub. Basically serving the same function as "STICKY: Please read forum rules" posts you'd see on forums.
+
+[View discussion on #1](https://github.com/desandro/lazyweb-request/issues/1)
+
+## Key values
+
+**Brevity** &mdash; We want everyone to read this. So it needs to be quick and easy. The fewer words the better.
+
+**Friendly** &mdash; People are looking for help. They don't want to deal with assholes. But laying down guidelines can still come across as uppity.
+
+## Outline
+
+should closely follow [_Creating issues_ by @fat](http://wordsbyf.at/2012/02/13/creating-issues/)
+
++ Hi. I'm human. You're human. Let's keep that in mind.
++ Isolate
+  - use jsFiddle (or something similar)
+  - provide specific conditions
++ Don't (just) paste code
++ Search previous issues
+
+## Backstory & related
+
+I've tried posting READ THIS BEFORE POSTING issues to [Masonry](https://github.com/desandro/masonry/issues/80) and [Isotope](https://github.com/desandro/isotope/issues/17) and I'm pretty sure people don't read them. I'm now trying to get the ball rolling again with [desandro/issues-agreement](https://github.com/desandro/issues-agreement)
+
+[@paulirish and me whine about it](http://storify.com/desandro/github-issues-helper-inklings)
+
+[@fat awesome's article _Creating issues_](http://wordsbyf.at/2012/02/13/creating-issues/)
+
+[Tips for Writing Better Bug Reports | Viget Extend](http://viget.com/extend/tips-for-writing-better-bug-reports)
+
+## Bigger scope
+
+This page doesn't just have to be for GitHub Issues. For now, I think that's a good enough goal. We could generalize it enough that it could work for other places where people go to for service or support like Stack Overflow, IRC rooms, etc.
