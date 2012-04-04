@@ -1,0 +1,25 @@
+# Git setup app
+
+A simple app that sets and installs Git on your Mac. Bonus points for setting up GitHub as well.
+
+[View discussion on #2](https://github.com/desandro/lazyweb-requests/issues/2)
+
+## Basic flow
+
+Basically do all of [help.github.com](http://help.github.com), but without command line.
+
++ User downloads _Git Setup_ app
++ User runs _Git Setup_
++ Download Git via curl or other robot magic
++ install Git
++ Check for SSH keys
+  - if no SSH keys, creates them, prompting for email and passphrase
++ Display `id_rsa.pub` and then informs user to paste into GitHub settings, if they're on GitHub
++ Prompt for `git config --global user.name` and `git config --global user.email`
++ Prompt for `git config --global github.user` and `git config --global github.token`
+
+## Backstory
+
+Doing a [Git training](https://github.com/nclud/git-training) with my team opened my eyes to how uneasy setting up Git is for most people. Copying and pasting commands into Terminal is not as easy and straight forward one might assume. Like if you're on a MacBook and have to use the touch pad to copy/paste text, it's terribly difficult.
+
+As I see, there's no reason why setting up Git cannot all be done with a simple app. It's just a couple steps, that require a couple fields. I feel like AppleScript would be well suited for this.
