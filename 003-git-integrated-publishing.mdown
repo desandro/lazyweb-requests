@@ -4,11 +4,47 @@ Why have out-dated blog posts when you can have living documents?
 
 [View discussion on #3](https://github.com/desandro/lazyweb-requests/issues/3)
 
-The blogging platform was born out of twentieth-century publishing technology like newspapers and periodicals. Content was produced, it was printed on to paper, that physical material would be delivered to its audience. The content would remained unchanged. If a change had to be made, it would require printing a subsequent edition. The same mentality is reflecting in blogging. Write a blog post, publish it, then write a follow-up post when changes are made.
+**NOTE** a work-in-progress. Lots of fragmented thoughts to follow.
 
-This paradigm is no longer necessary. So long as there is a mechanism to explore revision history. Wikis have this functionality. We should have a similar resource for simple article publishing. Similiar to [Jekyll](http://github.com/mojombo/jekyll).
+## Jekyll <a name="jekyll"></a>
 
-## Article data
+[Jekyll](http://github.com/mojombo/jekyll) is pretty rad. This resource should be just as rad, and similarly rad.
 
-+ Date created
-+ Date of most recent revision
+### Site structure
+
+    mysite/
+        _includes/
+        _posts/
+            how-i-learned-to-juggle.mdown
+            why-green-is-my-fav-color.mdown
+            startup-mistakes.mdown
+        _layouts/
+            article.html
+            archive-page.html
+        _site/
+        index.html
+
+Pretty much the same as [Jekyll's basic structure](https://github.com/mojombo/jekyll/wiki/Usage), the only difference is that post files do not need have the date prefix.
+
+**NOTE** Maybe `_posts/` should be `_articles/` or `_content/` to connote that this content is not a blog post that shouldn't be edited after publication.
+
+## Viewing revision <a name="viewing-revision"></a>
+
+Just like you can view a file on GitHub given a commit SHA, you should be able to do so here.
+
++ `mysite.com/how-i-learned-to-juggle` -> View current version of the article
++ `mysite.com/how-i-learned-to-juggle/fa18109af` -> view article at SHA fa18109af
+
+## Article data <a name="article-data"></a>
+
+Similar to [Jekyll's Page template data](https://github.com/mojombo/jekyll/wiki/Template-Data), an `article` variable should be available that contains `history`, which is an array of all commits associated with the article. basically that [file's git history](https://github.com/desandro/lazyweb-requests/commits/master/003-git-integrated-publishing.mdown). Each commit contains [commit data](http://developer.github.com/v3/git/commits/#response) -- SHA, author/committer, message, date. Would be nice to have number of lines deleted/added as well.
+
+This way, you could dynamically build navigation for each article to view its revision history.
+
+
+## Rationale <a name="rationale"></a>
+
+The blogging platform was born out of twentieth-century publishing technology like newspapers and periodicals. Content was a physical commodity, printed in ink on paper, and transported to its audience. Changes and edits were  Content was produced, it was printed on to paper, that physical material would be delivered to its audience. The content would remained unchanged. If a change had to be made, it would require printing a subsequent edition. The same mentality is reflecting in blogging. Write a blog post, publish it, then write a follow-up post when changes are made.
+
+This paradigm is no longer necessary. So long as there is a mechanism to explore revision history. Wikis have this functionality. We should have a similar resource for simple article publishing.
+
