@@ -1,0 +1,14 @@
+# Git-integrated publishing
+
+Why have out-dated blog posts when you can have living documents?
+
+[View discussion on #3](https://github.com/desandro/lazyweb-requests/issues/3)
+
+The blogging platform was born out of twentieth-century publishing technology like newspapers and periodicals. Content was produced, it was printed on to paper, that physical material would be delivered to its audience. The content would remained unchanged. If a change had to be made, it would require printing a subsequent edition. The same mentality is reflecting in blogging. Write a blog post, publish it, then write a follow-up post when changes are made.
+
+This paradigm is no longer necessary. So long as there is a mechanism to explore revision history. Wikis have this functionality. We should have a similar resource for simple article publishing. Similiar to [Jekyll](http://github.com/mojombo/jekyll).
+
+## Article data
+
++ Date created
++ Date of most recent revision
