@@ -25,11 +25,10 @@ should closely follow [_Creating issues_ by @fat](http://wordsbyf.at/2012/02/13/
 
 I've tried posting READ THIS BEFORE POSTING issues to [Masonry](https://github.com/desandro/masonry/issues/80) and [Isotope](https://github.com/desandro/isotope/issues/17) and I'm pretty sure people don't read them. I'm now trying to get the ball rolling again with [desandro/issues-agreement](https://github.com/desandro/issues-agreement)
 
-[@paulirish and me whine about it](http://storify.com/desandro/github-issues-helper-inklings)
-
-[@fat awesome's article _Creating issues_](http://wordsbyf.at/2012/02/13/creating-issues/)
-
-[Tips for Writing Better Bug Reports | Viget Extend](http://viget.com/extend/tips-for-writing-better-bug-reports)
++ [@paulirish and me whine about it](http://storify.com/desandro/github-issues-helper-inklings)
++ [@fat awesome's article _Creating issues_](http://wordsbyf.at/2012/02/13/creating-issues/)
++ [Tips for Writing Better Bug Reports | Viget Extend](http://viget.com/extend/tips-for-writing-better-bug-reports)
++ [Contribute to Normalize.css - Report Issues by @necolas](https://github.com/necolas/normalize.css/wiki/contribute)
 
 ## Bigger scope
 
